@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "Building the deploying in the docker"'
+                sh 'echo "Building the deploying in the changed"'
             }
         }
     }
