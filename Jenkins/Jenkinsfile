@@ -14,6 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'echo "Building the deploying in the changed"'
+                sh 'echo hello '
             }
         }
     }
